@@ -1,0 +1,15 @@
+[2022-09-20 15:31:59.278] [exthost] [info] Extension host with pid 3788810 started
+[2022-09-20 15:31:59.298] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/19d8cea28055e683ebe03d9091843e36/vscode.lock': Lock acquired.
+[2022-09-20 15:31:59.578] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-20 15:31:59.612] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-09-20 15:31:59.638] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-20 15:31:59.673] [exthost] [info] ExtensionService#_doActivateExtension rafaelmaiolla.remote-vscode, startup: true, activationEvent: '*'
+[2022-09-20 15:31:59.972] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-20 15:31:59.997] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-20 15:32:00.003] [exthost] [info] Eager extensions activated
+[2022-09-20 15:32:01.335] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-20 15:32:01.343] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-20 15:32:01.442] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-20 15:33:39.729] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-20 15:33:39.730] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/19d8cea28055e683ebe03d9091843e36/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-20 15:33:39.757] [exthost] [info] Extension host with pid 3788810 exiting with code 0

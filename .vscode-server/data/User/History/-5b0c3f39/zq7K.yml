@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: phonebook-app-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: phonebook-app-pod
+  template:
+    metadata:
+      labels:
+        app: phonebook-app-pod
+    spec:
+      containers:
+        - name: phonebook-app
+          image: karistide/web_server
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
+          ports:
+            - containerPort: 80
+          env:
+            - name: MYSGQL_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  key: MYSQL-USER-PASSWORD
+                  name: mysql-secret
+          envFrom:
+            - configMapRef:
+                name: servers-configmap

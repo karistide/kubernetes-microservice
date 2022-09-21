@@ -1,0 +1,93 @@
+[2022-09-19 21:49:37.959] [exthost] [info] Extension host with pid 3182080 started
+[2022-09-19 21:49:37.980] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/19d8cea28055e683ebe03d9091843e36/vscode.lock': Lock acquired.
+[2022-09-19 21:49:38.164] [exthost] [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml', root cause: ms-kubernetes-tools.vscode-kubernetes-tools
+[2022-09-19 21:49:38.360] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-19 21:49:38.365] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-09-19 21:49:38.380] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-19 21:49:38.410] [exthost] [info] ExtensionService#_doActivateExtension rafaelmaiolla.remote-vscode, startup: true, activationEvent: '*'
+[2022-09-19 21:49:38.545] [exthost] [info] ExtensionService#_doActivateExtension ms-kubernetes-tools.vscode-kubernetes-tools, startup: false, activationEvent: 'onLanguage:yaml'
+[2022-09-19 21:49:39.146] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-19 21:49:39.177] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-19 21:49:39.186] [exthost] [info] Eager extensions activated
+[2022-09-19 21:49:40.218] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-19 21:49:40.248] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-19 21:49:40.671] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-19 21:49:40.806] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-19 21:49:40.810] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-19 21:49:40.894] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-19 21:49:40.924] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-19 21:49:40.947] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-19 21:49:40.951] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-19 21:49:41.091] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-19 22:02:25.747] [exthost] [error] [redhat.vscode-yaml] provider FAILED
+[2022-09-19 22:02:25.757] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:131752)
+	at new n (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:131701)
+	at new n (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:117230)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406530)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:411876)
+	at /home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:337830
+	at async c.provideDocumentSymbols (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-09-19 22:02:29.766] [exthost] [error] [redhat.vscode-yaml] provider FAILED
+[2022-09-19 22:02:29.766] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:131752)
+	at new n (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:131701)
+	at new n (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:117230)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406530)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:411876)
+	at /home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:337830
+	at async c.provideDocumentSymbols (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-09-19 22:17:37.586] [exthost] [error] [redhat.vscode-yaml] provider FAILED
+[2022-09-19 22:17:37.586] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:131752)
+	at new n (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:131701)
+	at new n (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:117230)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406530)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406705)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:411876)
+	at /home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:337830
+	at async c.provideDocumentSymbols (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-09-19 22:58:19.588] [exthost] [error] [redhat.vscode-yaml] provider FAILED
+[2022-09-19 22:58:19.588] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:131752)
+	at new n (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:131701)
+	at new n (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:117230)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406530)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406705)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:411876)
+	at /home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:337830
+	at async c.provideDocumentSymbols (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-09-20 00:00:14.137] [exthost] [error] [redhat.vscode-yaml] provider FAILED
+[2022-09-20 00:00:14.138] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:131752)
+	at new n (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:131701)
+	at new n (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:117230)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406530)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406705)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406705)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406705)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406705)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:411876)
+	at /home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:337830
+	at async c.provideDocumentSymbols (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-09-20 00:16:31.173] [exthost] [error] [redhat.vscode-yaml] provider FAILED
+[2022-09-20 00:16:31.173] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:131752)
+	at new n (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:131701)
+	at new n (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:117230)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406530)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406705)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406705)
+	at H (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:406705)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:411876)
+	at /home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.10.1/dist/extension.js:2:337830
+	at async c.provideDocumentSymbols (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-09-20 07:22:18.194] [exthost] [info] Extension host terminating: renderer disconnected for too long (1)
+[2022-09-20 07:22:18.199] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/19d8cea28055e683ebe03d9091843e36/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-20 07:22:18.235] [exthost] [info] Extension host with pid 3182080 exiting with code 0

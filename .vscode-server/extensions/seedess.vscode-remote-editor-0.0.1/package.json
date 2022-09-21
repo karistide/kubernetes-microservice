@@ -1,0 +1,66 @@
+{
+	"name": "vscode-remote-editor",
+	"displayName": "VSCode Remote SSH Editor Extension",
+	"description": "Edit remote files via SSH",
+	"version": "0.0.1",
+	"publisher": "seedess",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:remote.editor.connectRemote",
+		"workspaceContains:.remote"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "remote.editor.connectRemote",
+				"title": "Remote Editor > Connect remote SSH"
+			},
+			{
+				"command": "remote.editor.disconnectRemote",
+				"title": "Remote Editor > Disconnect remote SSH"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test",
+		"debug": "node --debug-brk -- $runtimeExecutable "
+	},
+	"dependencies": {
+		"debug": "^3.1.0",
+		"mkdirp": "^0.5.1",
+		"node-ssh": "^4.0.1"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.32",
+		"@types/node": "^6.0.40",
+		"mocha": "^2.3.3",
+		"node-ssh": "^4.0.1",
+		"ts-node": "^5.0.1",
+		"typescript": "^2.0.3",
+		"vscode": "^1.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fijiwebdesign/vscode-remote-editor"
+	},
+	"__metadata": {
+		"id": "69bfd49e-0b13-47f3-9815-76f70e72bf94",
+		"publisherId": "234445f6-5c78-4e7c-a18f-8ea261fb9c5b",
+		"publisherDisplayName": "seedess",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1663429251750
+	}
+}

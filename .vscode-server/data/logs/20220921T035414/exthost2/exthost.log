@@ -1,0 +1,25 @@
+[2022-09-21 04:01:05.650] [exthost] [info] Extension host with pid 20437 started
+[2022-09-21 04:01:05.698] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/2f47ea688a7fab5f503337ece34f1fc1/vscode.lock': Lock acquired.
+[2022-09-21 04:01:05.793] [exthost] [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml', root cause: ms-kubernetes-tools.vscode-kubernetes-tools
+[2022-09-21 04:01:05.957] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-21 04:01:05.966] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-09-21 04:01:05.990] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-21 04:01:06.040] [exthost] [info] ExtensionService#_doActivateExtension rafaelmaiolla.remote-vscode, startup: true, activationEvent: '*'
+[2022-09-21 04:01:06.414] [exthost] [info] ExtensionService#_doActivateExtension ms-kubernetes-tools.vscode-kubernetes-tools, startup: false, activationEvent: 'onLanguage:yaml'
+[2022-09-21 04:01:07.116] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-21 04:01:07.141] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-21 04:01:07.147] [exthost] [info] Eager extensions activated
+[2022-09-21 04:01:08.108] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-21 04:01:08.157] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-21 04:01:08.194] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-21 04:01:08.265] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-21 04:01:08.463] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-21 04:01:08.732] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-21 04:01:08.754] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-21 04:01:08.779] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-21 04:01:08.784] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-21 04:01:08.849] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-21 04:01:08.855] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2022-09-21 10:33:54.255] [exthost] [info] Extension host terminating: renderer disconnected for too long (1)
+[2022-09-21 10:33:54.262] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/2f47ea688a7fab5f503337ece34f1fc1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-21 10:33:54.302] [exthost] [info] Extension host with pid 20437 exiting with code 0

@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: result-app-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: result-app-pod
+  template:
+    metadata:
+      labels:
+        app: result-app-pod
+    spec:
+      containers:
+        - name: result-app
+          image: karistide/result_server
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
+          ports:
+            - containerPort: 80
+          env:
+            - name: MYSGQL_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  key: MYSQL-USER-PASSWORD
+                  name: mysql-secret
+          envFrom:
+            - configMapRef:
+                name: servers-configmap

@@ -1,0 +1,15 @@
+[2022-09-17 15:13:42.277] [exthost] [info] Extension host with pid 1391586 started
+[2022-09-17 15:13:42.296] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/19d8cea28055e683ebe03d9091843e36/vscode.lock': Lock acquired.
+[2022-09-17 15:13:42.427] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-17 15:13:42.439] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-09-17 15:13:42.461] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-17 15:13:42.542] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-17 15:13:42.566] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-17 15:13:42.571] [exthost] [info] Eager extensions activated
+[2022-09-17 15:13:44.757] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-17 15:13:44.765] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-17 15:13:44.861] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-17 15:39:27.766] [exthost] [info] ExtensionService#_doActivateExtension rafaelmaiolla.remote-vscode, startup: false, activationEvent: '*'
+[2022-09-17 22:51:40.150] [exthost] [info] Extension host terminating: renderer disconnected for too long (1)
+[2022-09-17 22:51:40.151] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/19d8cea28055e683ebe03d9091843e36/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-17 22:51:40.164] [exthost] [info] Extension host with pid 1391586 exiting with code 0

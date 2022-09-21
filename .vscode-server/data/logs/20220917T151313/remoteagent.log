@@ -1,0 +1,35 @@
+[2022-09-17 15:13:13.685] [remoteagent] [info] Extension host agent started.
+[2022-09-17 15:13:14.101] [remoteagent] [info] [127.0.0.1][0d667e73][ManagementConnection] New connection established.
+[2022-09-17 15:13:14.102] [remoteagent] [info] [127.0.0.1][0aae418f][ExtensionHostConnection] New connection established.
+[2022-09-17 15:13:14.109] [remoteagent] [info] [127.0.0.1][0aae418f][ExtensionHostConnection] <1391141> Launched Extension Host Process.
+[2022-09-17 15:13:31.019] [remoteagent] [info] [127.0.0.1][0d667e73][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-09-17 15:13:31.072] [remoteagent] [info] [127.0.0.1][0aae418f][ExtensionHostConnection] <1391141> Extension Host Process exited with code: 0, signal: null.
+[2022-09-17 15:13:31.073] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-09-17 15:13:40.647] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-09-17 15:13:40.647] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-09-17 15:13:41.012] [remoteagent] [info] [127.0.0.1][bf4a2094][ManagementConnection] New connection established.
+[2022-09-17 15:13:41.096] [remoteagent] [info] [127.0.0.1][6b44e872][ExtensionHostConnection] New connection established.
+[2022-09-17 15:13:41.105] [remoteagent] [info] [127.0.0.1][6b44e872][ExtensionHostConnection] <1391586> Launched Extension Host Process.
+[2022-09-17 15:13:43.113] [remoteagent] [error] ["CodeExpectedError: Could not find pty on pty host","    at c._throwIfNoPty (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/platform/terminal/node/ptyHostMain.js:23:36316)","    at c.updateTitle (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/platform/terminal/node/ptyHostMain.js:23:32064)","    at Object.call (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/platform/terminal/node/ptyHostMain.js:16:8386)","    at u.onPromise (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/platform/terminal/node/ptyHostMain.js:15:5851)","    at u.onRawMessage (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/platform/terminal/node/ptyHostMain.js:15:5234)","    at /home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/platform/terminal/node/ptyHostMain.js:15:4520","    at p.invoke (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/platform/terminal/node/ptyHostMain.js:11:145)","    at D.deliver (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)","    at T.fire (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)","    at process.Q (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/platform/terminal/node/ptyHostMain.js:9:20703)","    at process.emit (node:events:526:28)","    at emit (node:internal/child_process:938:14)","    at processTicksAndRejections (node:internal/process/task_queues:84:21)"]
+[2022-09-17 15:18:40.648] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-09-17 15:39:26.467] [remoteagent] [info] Getting Manifest... rafaelmaiolla.remote-vscode
+[2022-09-17 15:39:26.500] [remoteagent] [info] Installing extension: rafaelmaiolla.remote-vscode
+[2022-09-17 15:39:26.871] [remoteagent] [info] Downloaded extension: rafaelmaiolla.remote-vscode /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/rafaelmaiolla.remote-vscode-1.1.0
+[2022-09-17 15:39:27.391] [remoteagent] [info] Extracted extension to /home/ubuntu/.vscode-server/extensions/.d78055bd-80e2-47f5-87af-340d72806bd6: rafaelmaiolla.remote-vscode
+[2022-09-17 15:39:27.399] [remoteagent] [info] Renamed to /home/ubuntu/.vscode-server/extensions/rafaelmaiolla.remote-vscode-1.1.0
+[2022-09-17 15:39:27.401] [remoteagent] [info] Extracting completed. rafaelmaiolla.remote-vscode
+[2022-09-17 15:39:27.402] [remoteagent] [info] Extension installed successfully: rafaelmaiolla.remote-vscode
+[2022-09-17 15:40:51.066] [remoteagent] [info] Getting Manifest... seedess.vscode-remote-editor
+[2022-09-17 15:40:51.095] [remoteagent] [info] Installing extension: seedess.vscode-remote-editor
+[2022-09-17 15:40:51.434] [remoteagent] [info] Downloaded extension: seedess.vscode-remote-editor /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/seedess.vscode-remote-editor-0.0.1
+[2022-09-17 15:40:51.750] [remoteagent] [info] Extracted extension to /home/ubuntu/.vscode-server/extensions/.3c25aee7-aaa6-4dd3-bb3f-4a644c13cfbd: seedess.vscode-remote-editor
+[2022-09-17 15:40:51.754] [remoteagent] [info] Renamed to /home/ubuntu/.vscode-server/extensions/seedess.vscode-remote-editor-0.0.1
+[2022-09-17 15:40:51.756] [remoteagent] [info] Extracting completed. seedess.vscode-remote-editor
+[2022-09-17 15:40:51.757] [remoteagent] [info] Extension installed successfully: seedess.vscode-remote-editor
+[2022-09-17 20:08:42.136] [remoteagent] [info] [127.0.0.1][bf4a2094][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-09-17 20:08:42.139] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/server/node/server.main.js:145:7922)
+    at process.emit (node:events:526:28)
+[2022-09-17 22:51:40.171] [remoteagent] [info] [127.0.0.1][6b44e872][ExtensionHostConnection] <1391586> Extension Host Process exited with code: 0, signal: null.
+[2022-09-17 22:51:40.172] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-09-17 22:56:40.173] [remoteagent] [info] Last EH closed, shutting down
